@@ -1,14 +1,10 @@
 # EDA Google Play Store
-
 ---
-
 ## Análisis del éxito de las aplicaciones de Google Play Store
-
 ---
-
 ### Origen de los datos
 
-Los datos utilizados provienen de un archivo .csv obtenido mediante scrapping de la Google Play Store publicado en[Kaggle](https://www.kaggle.com/datasets/lava18/google-play-store-apps). El dataset fue depurado y enriquecido durante el proceso de limpieza.
+Los datos utilizados provienen de un archivo .csv obtenido mediante scrapping de la Google Play Store publicado en [Kaggle](https://www.kaggle.com/datasets/lava18/google-play-store-apps). El dataset fue depurado y enriquecido durante el proceso de limpieza.
 
 ---
 
