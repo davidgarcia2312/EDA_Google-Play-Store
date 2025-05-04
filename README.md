@@ -26,6 +26,6 @@ Los datos utilizados provienen de un archivo .csv obtenido mediante scrapping de
 
 ### Herramientas y tecnologías utilizadas
 
-- **Python**: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scipy`
+- **Python**: `pandas`, `matplotlib`, `seaborn`
 - **Jupyter Notebook**
 - **Visual Studio Code**
