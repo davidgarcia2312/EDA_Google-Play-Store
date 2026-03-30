@@ -1,31 +1,74 @@
 # EDA Google Play Store
----
-## Análisis del éxito de las aplicaciones de Google Play Store
----
-### Origen de los datos
 
-Los datos utilizados provienen de un archivo .csv obtenido mediante scrapping de la Google Play Store publicado en [Kaggle](https://www.kaggle.com/datasets/lava18/google-play-store-apps). El dataset fue depurado y enriquecido durante el proceso de limpieza.
+## Analysing the success factors of mobile applications on Google Play Store
 
 ---
 
-### Temas clave del proyecto
+### Objective
 
-- Factores que influyen en el **rating** de las apps.
-- Análisis del modelo **freemium vs apps de pago**.
-- Distribución de **instalaciones y precios**.
-- Comparación entre **categorías**: apps bien valoradas vs "apps basura".
-- Extracción de recomendaciones prácticas para el éxito de una app.
+Exploratory data analysis of 10,000+ Google Play Store apps to identify 
+the key factors driving downloads, user ratings and monetisation models. 
+The analysis includes statistical hypothesis testing and actionable 
+recommendations for launching a successful app.
+
+---
+
+### Key findings
+
+- Paid apps show significantly higher ratings than free apps
+  (hypothesis test: p = 0.00008)
+- Finance & Business has the highest proportion of low-rated apps (~2%)
+- Apps with 100K+ installs stabilise at a rating of 4.2–4.4
+- Freemium is the most effective monetisation model for virality
+
+---
+
+### Key topics
+
+- Factors influencing app ratings and download volume.
+- Freemium vs paid monetisation models.
+- Distribution of installs and pricing across categories.
+- Identification of low-quality ("junk") apps by category.
+- Data-driven recommendations for app launch strategy.
+
+---
+
+### Data source
+
+Dataset obtained via scraping of Google Play Store, published on 
+[Kaggle](https://www.kaggle.com/datasets/lava18/google-play-store-apps). 
+Cleaned and enriched during the analysis process.
 
 ---
 
 ### Keywords
 
-`EDA` • `Google Play Store` • `Análisis exploratorio` • `Micropagos` • `Modelos de negocio` • `Apps móviles` • `Freemium` • `Categorías de apps` • `Rating de usuarios`
+`EDA` • `Google Play Store` • `Exploratory Data Analysis` • `Hypothesis Testing` 
+- `Freemium` • `Monetisation` • `Data Visualization` • `Python`
 
 ---
 
-### Herramientas y tecnologías utilizadas
+### Tools and technologies
 
-- **Python**: `pandas`, `matplotlib`, `seaborn`
-- **Jupyter Notebook**
-- **Visual Studio Code**
+- **Language:** Python • Markdown
+- **Libraries:** `pandas`, `matplotlib`, `seaborn`, `numpy`
+- **Environments:** Jupyter Notebook • Visual Studio Code
+
+---
+
+### Repository structure
+```
+EDA_Google-Play-Store/
+│
+├── main.ipynb        # Final analysis notebook
+├── memoria.pdf       # Full project report (Spanish)
+├── requirements.txt  # Libraries required to run the notebook
+├── LICENSE           # MIT License
+└── README.md         # Project summary
+```
+
+---
+
+### License
+
+MIT License — see LICENSE file for details.
